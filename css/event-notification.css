@@ -16,6 +16,13 @@ body * {
   color: #fff;
 }
 
+.modal * {
+  color: #000;
+}
+.modal-footer * {
+  color: #fff;
+}
+
 header {
   position: relative;
   height: 100vh;

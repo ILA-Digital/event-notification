@@ -114,11 +114,88 @@
         </div>
       </section>
     </main>
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">REGISTER</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">Fullname</span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Fullname"
+                aria-label="Fullname"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">Email</span>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email"
+                aria-label="Email"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1"
+                >Phone Number</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Phone Number"
+                aria-label="Phone Number"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer>
       <div class="container">
         <h2>STOP SAYING <br />“I can’t”</h2>
         <p>you can. you just choose not to.</p>
-        <button>Let’s Train together now!</button>
+        <button
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop"
+        >
+          Let’s Train together now!
+        </button>
       </div>
     </footer>
   </body>

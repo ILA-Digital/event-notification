@@ -13,6 +13,16 @@ body {
   }
   background-color: #111;
 }
+.modal {
+  * {
+    color: #000;
+  }
+  &-footer {
+    * {
+      color: #fff;
+    }
+  }
+}
 header {
   position: relative;
 
